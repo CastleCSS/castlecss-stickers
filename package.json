@@ -1,0 +1,26 @@
+{
+	"name": "castlecss-stickers",
+	"version": "0.1.0",
+	"description": "Easy to use stickers for CastleCSS",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CastleCSS/castlecss-stickers.git"
+	},
+	"keywords": [
+		"CastleCSS",
+		"forms"
+	],
+	"author": "Darius Rosendahl <darius@denieuwezaak.nl> (http://www.castlecss.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/CastleCSS/castlecss-stickers/issues"
+	},
+	"homepage": "https://github.com/CastleCSS/castlecss-stickers#readme",
+	"peerDependencies": {
+		"castlecss-core": "^2.6.0"
+	}
+}

@@ -1,0 +1,62 @@
+%sticker {
+	padding: .5rem .6rem;
+	font-size: $sticker-font-size;
+	background-color: $sticker-bgcolor;
+	color: $sticker-color;
+	border-radius: $sticker-radius;
+	text-transform: $sticker-text-transform;
+	font-weight: $sticker-weight;
+}
+
+.sticker {
+	@extend %sticker;
+
+	&-positive {
+		@extend %sticker;
+		background-color: $positive;
+	}
+	&-negative {
+		@extend %sticker;
+		background-color: $negative;
+	}
+	&-alert {
+		@extend %sticker;
+		background-color: $alert;
+	}
+	&-warning {
+		@extend %sticker;
+		background-color: $warning;
+	}
+	&-disabled {
+		@extend %sticker;
+		background-color: $disabled;
+	}
+
+	&-theme01 {
+		@extend %sticker;
+		color: $color01;
+		background-color: $theme01;
+	}
+	&-theme02 {
+		@extend %sticker;
+		color: $color01;
+		background-color: $theme02;
+	}
+	&-theme03 {
+		@extend %sticker;
+		color: $color01;
+		background-color: $theme03;
+	}
+	&-theme04 {
+		@extend %sticker;
+		background-color: $theme04;
+	}
+	&-theme05 {
+		@extend %sticker;
+		background-color: $theme05;
+	}
+
+	&-large {
+		font-size: $sticker-font-size-large;
+	}
+}

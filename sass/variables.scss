@@ -1,0 +1,30 @@
+// Default colors - fallback
+$color01:  	#fff !default;
+$color02:  	#000 !default;
+$color03: 	#eeeeee !default;
+
+// Default border-radius - fallback
+$radius: 5px;
+
+// Default sticker styles
+$sticker-font-size: 1.4rem !default;
+$sticker-font-size-large: 1.6rem !default;
+$sticker-bgcolor: $color03 !default;
+$sticker-color: $color02 !default;
+$sticker-text-transform: none !default;
+$sticker-weight: normal !default;
+$sticker-radius: $radius !default;
+
+// Default theme colors - fallback
+$theme01: 	#1B94BF !default;	// Knight blue
+$theme02: 	#093142 !default; 	// Royal blue
+$theme03:	#12637F !default;	// Falcon blue
+$theme04:	#FFC200 !default;	// Royal yellow
+$theme05:	#FFFFFF !default;	// Destroyer white
+
+// Default alert colors - fallback
+$alert:		#c0dbff !default;
+$warning:	#ffe283 !default;
+$negative:	#feb3b3 !default;
+$positive:	#c3e5cd !default;
+$disabled:	#CDCDC1 !default;
