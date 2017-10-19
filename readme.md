@@ -15,7 +15,7 @@ The castlecss-core is automatically installed as a peerDependency too.
 
 ## How to install
 - Download the [CastleCSS Boilerplate](https://www.github.com/CastleCSS/castlecss-boilerplate). All Packages are included + examples and project setup
-- Install via [NPM](https://www.npmjs.com/): ```npm install castlecss-icons```
+- Install via [NPM](https://www.npmjs.com/): ```npm install castlecss-stickers```
 - Require it in your own NPMJS package
 - Download or clone the package
 
